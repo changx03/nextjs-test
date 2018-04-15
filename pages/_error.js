@@ -5,7 +5,7 @@ import Router from 'next/router';
 const errorPage = () => (
   <div>
     <h1>404 Page not found!</h1>
-    <Link href="/">Go to home page</Link>
+    <Link href="/"><a>Go to home page</a></Link>
   </div>
 );
 
